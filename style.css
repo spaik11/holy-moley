@@ -1,0 +1,45 @@
+#app {
+  font-size: 5em;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+  background-color: yellow;
+  height: 20vh;
+  width: 100vw;
+}
+
+#middle {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  height: 60vh;
+  width: 100vw;
+}
+
+#main {
+  display: flex;
+}
+
+#nav {
+  width: 20vw;
+  background-color: red;
+}
+
+#articles {
+  width: 60vw;
+  background-color: orange;
+}
+
+#ads {
+  width: 20vw;
+  background-color: green;
+}
+
+#footer {
+  height: 20vh;
+  background-color: blue;
+}
